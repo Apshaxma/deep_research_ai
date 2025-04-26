@@ -3,12 +3,12 @@
 import streamlit as st
 from dotenv import load_dotenv
 import os
-
+from main import compiled_graph, ResearchState 
 # Load environment variables
 load_dotenv()
 
 # Import your backend logic
-from main import compiled_graph, ResearchState  # Adjust according to your file structure
+ # Adjust according to your file structure
 
 # Streamlit app
 st.set_page_config(page_title="AI Deep Research", page_icon="🔍", layout="centered")
@@ -27,6 +27,6 @@ if st.button("Search"):
             st.success("Research Completed!")
 
             st.subheader("📝 Final Drafted Answer:")
-            st.write(result.drafted_answer)
+            st.write(result['drafted_answer'])
     else:
         st.warning("Please enter a question to research!")
