@@ -5,10 +5,12 @@ It is designed for the **Kairon Qualifying Assignment** — submitted by Ashutos
 
 ---
 
-##Code Preview-
+**Code Preview**-
 
 -TO see the Demonstration of the code In an Streamlit App 
 -Click On this Link : https://deepresearchai-01.streamlit.app/
+
+---
 
 ## 🚀 Project Overview
 
